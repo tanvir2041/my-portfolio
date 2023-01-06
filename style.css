@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    box-sizing: border-box;
+}
+.hadhad{
+    background: #FFF8F3;
+    background-image: url(images/header_bg.png), url(images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+}
+.hader{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    align-items: center;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+    margin-top: 40px;
+}
+.r{
+    color: #FD6E0A;
+}
+.hader ul{
+    display: flex;
+    align-items: center;
+}
+.hader li {
+    list-style: none;
+    margin-left: 50px;
+}
+.btn-01{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+.mary{
+    color: #181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.hi{
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+
+}
+.lor{
+    color: #757575;
+    font-size: 18px; margin-bottom: 30px;
+}
+.btn-02{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 30px;
+}
+.btn-03{
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FD6E0A;
+    font-weight: 700;
+    font-size: 20px;
+}
+main{
+    
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+.about{
+    text-align: center;
+    margin: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+section{
+    margin-top: 130px;
+}
+.sec-title{
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.sec-info{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.about-info-container{
+    display: flex;
+    gap: 50px;
+}
+.about-info{
+
+}
+.info-title{
+    color: #757575;
+    text-align: center;
+    font-size: 20px;
+
+}
+.info-descri{
+    color: #474747;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* what i do */
+.what{
+ margin: 130px;
+}
+.more{
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    margin-bottom: 30px;
+}
+.section-title{
+    text-align: center;
+    color: #181818;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-title{
+    color: #181818;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.skill-discei{
+    color: #757575;
+}
+.resume-containt{
+    display: flex;
+}
+.resume-title{
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+
+}
+.master{
+    color: #474747;
+    font-weight: 700;
+    font-size: 25px;
+}
+.harvard{
+    color: #757575;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.list{
+    color: #757575;
+}
+.hr{
+    border-bottom: 1px solid #D1D1D1;
+    width: 558px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-04{
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+.butt{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 113px;
+}
+footer{
+    background: #FFF8F3;
+    justify-content: center;
+    height: 780px;
+    display: flex;
+    gap: 100px;
+
+}
+.same{
+    margin-top: 130px;
+}
+.pls{
+    color: #474747;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 24px;
+}
+input{
+    background: #FFFFFF;
+    border-radius: 5px;
+    height: 40px;
+    width: 350px;
+}
+input::placeholder{
+    margin-left: 12px;
+}
+input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
